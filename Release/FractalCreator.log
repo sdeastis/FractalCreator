@@ -1,8 +1,15 @@
 ﻿  FractalCreator.cpp
-C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(67,31): warning C4244: 'initializing': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(81,36): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(82,38): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(83,37): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(101,32): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
   Generating code
-  1 of 191 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  93 of 351 functions (26.5%) were compiled, the rest were copied from previous compilation.
+    87 functions were new in current compilation
+    24 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   FractalCreator.vcxproj -> C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\Release\FractalCreator.exe

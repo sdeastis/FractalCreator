@@ -1,3 +1,3 @@
 ﻿  FractalCreator.cpp
-C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(68,28): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\FractalCreator.cpp(67,30): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
   FractalCreator.vcxproj -> C:\Users\salvatore.deastis\Documents\00_Work\00_Projects\99_cpp\FractalCreator\Debug\FractalCreator.exe
