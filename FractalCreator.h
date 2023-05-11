@@ -4,6 +4,7 @@
 #include <memory>
 #include <math.h>
 #include <utility>
+#include <vector>
 
 #include "Bitmap.h"
 #include "Mandelbrot.h"
@@ -27,12 +28,17 @@ namespace deastisconsulting {
 
 		vector<int> m_ranges;
 		vector<RGB> m_colors;
+		vector<int> m_rangeTotals;
+
+		bool m_bGotFirstRange{ false };
 
 	private:
 		void calculateIteration();
 		void calculateTotalIterations();
+		void calulateRangeTotals();
 		void drawFractal();
 		void writeBitmap(std::string name);
+		int getRange(int iterations) const;
 
 	public:
 		FractalCreator(int width, int height);
